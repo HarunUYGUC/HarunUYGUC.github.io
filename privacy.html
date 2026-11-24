@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <title>IonMerge — Gizlilik Politikası / Privacy Policy</title>
+  <meta
+    name="description"
+    content="IonMerge mobil oyunu için resmi Gizlilik Politikası (TR) ve Privacy Policy (EN)."
+  />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0a0e17;
+      --surface: #121828;
+      --surface-elevated: #172036;
+      --border: #233152;
+      --text-primary: #f8fafc;
+      --text-secondary: #cbd5e1;
+      --text-muted: #94a3b8;
+      --pos: #ff6b4a;
+      --neg: #22d3ee;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(640px 420px at 10% 0%, rgba(255, 107, 74, 0.12), transparent 65%),
+        radial-gradient(640px 420px at 90% 10%, rgba(34, 211, 238, 0.12), transparent 65%),
+        var(--bg);
+      color: var(--text-primary);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--neg);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: #67e8f9;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--neg);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    .topbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1.25rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+
+    .badge-plus {
+      color: var(--pos);
+    }
+
+    .badge-minus {
+      color: var(--neg);
+    }
+
+    .lang-nav {
+      display: inline-flex;
+      gap: 8px;
+    }
+
+    .lang-link {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-primary);
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: border-color 0.15s ease, background-color 0.15s ease;
+    }
+
+    .lang-link:hover {
+      border-color: var(--neg);
+      background: var(--surface-elevated);
+      color: var(--text-primary);
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 28px 24px;
+      margin-bottom: 24px;
+    }
+
+    .meta-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      background: var(--surface-elevated);
+      border: 1px solid var(--border);
+      font-size: 0.875rem;
+    }
+
+    .meta-label {
+      display: block;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 2px;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 1.7rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      margin: 24px 0 8px;
+      font-size: 1.125rem;
+      color: var(--text-primary);
+      border-left: 3px solid var(--pos);
+      padding-left: 10px;
+    }
+
+    section[lang="en"] h2 {
+      border-left-color: var(--neg);
+    }
+
+    p {
+      margin: 8px 0 12px;
+      color: var(--text-secondary);
+    }
+
+    ul {
+      margin: 8px 0 14px;
+      padding-left: 20px;
+      color: var(--text-secondary);
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.88em;
+      padding: 2px 6px;
+      border-radius: 6px;
+      background: rgba(148, 163, 184, 0.12);
+      color: var(--text-primary);
+    }
+
+    .footer {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 12px;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        padding: 22px 18px;
+      }
+
+      h1 {
+        font-size: 1.45rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="topbar">
+      <a class="brand" href="./index.html">
+        <span class="badge-plus" aria-hidden="true">+</span>
+        <span>IonMerge</span>
+        <span class="badge-minus" aria-hidden="true">−</span>
+      </a>
+      <nav class="lang-nav" aria-label="Dil / Language">
+        <a class="lang-link" href="#tr">Türkçe</a>
+        <a class="lang-link" href="#en">English</a>
+      </nav>
+    </header>
+
+    <section id="tr" lang="tr" class="card">
+      <h1>Gizlilik Politikası (Türkçe)</h1>
+      <p>
+        Bu Gizlilik Politikası, <strong>Harun Uyguç</strong> tarafından geliştirilen
+        <strong>IonMerge</strong> mobil uygulamasının (paket adı:
+        <code>com.harunuyguc.ionmerge</code>) veri işleme ve gizlilik uygulamalarını açıklar.
+      </p>
+
+      <div class="meta-bar">
+        <div>
+          <span class="meta-label">Uygulama</span>
+          <strong>IonMerge</strong>
+        </div>
+        <div>
+          <span class="meta-label">Geliştirici</span>
+          <strong>Harun Uyguç</strong>
+        </div>
+        <div>
+          <span class="meta-label">İletişim</span>
+          <a href="mailto:harun.uyguc@gmail.com">harun.uyguc@gmail.com</a>
+        </div>
+        <div>
+          <span class="meta-label">Yürürlük Tarihi</span>
+          <strong>24 Kasım 2026</strong>
+        </div>
+      </div>
+
+      <h2>1. Geliştirici Tarafından Doğrudan Toplanan Veriler</h2>
+      <p>
+        IonMerge kullanıcı hesabı, üyelik veya oturum açma gerektirmez. Geliştiriciye ait bir
+        sunucu bulunmamaktadır; adınız, e-posta adresiniz, telefon numaranız veya kişisel kimlik
+        bilgileriniz geliştirici tarafından doğrudan toplanmaz, saklanmaz veya paylaşılmaz.
+      </p>
+
+      <h2>2. Cihazda Yerel Olarak Saklanan Oyun Verileri</h2>
+      <p>
+        Oyun deneyiminizi sürdürebilmek için aşağıdaki veriler yalnızca kendi cihazınızın yerel
+        depolama alanında (<code>AsyncStorage</code>) tutulur:
+      </p>
+      <ul>
+        <li>Mod bazında (Klasik, Zor, Arcade) en yüksek skorlar</li>
+        <li>Yarım kalan oyun oturumu ve tahta durumu</li>
+        <li>Dil, titreşim (haptics) ve önizleme ayarları</li>
+      </ul>
+      <p>
+        Bu yerel veriler geliştirici sunucularına gönderilmez ve uygulama verilerini
+        temizlediğinizde ya da uygulamayı cihazınızdan kaldırdığınızda tamamen silinir.
+      </p>
+
+      <h2>3. Üçüncü Taraf Reklam Hizmeti (Google AdMob)</h2>
+      <p>
+        IonMerge, isteğe bağlı ödüllü reklamlar ("İkinci Şans" vb.) sunabilmek için
+        <strong>Google AdMob</strong> (Google Mobile Ads SDK) kullanır. Reklam sunumu,
+        performans ölçümü, dolandırıcılığın önlenmesi ve geçerli rıza tercihlerine bağlı olarak
+        reklamların kişiselleştirilmesi amacıyla Google AdMob aşağıdaki verileri işleyebilir:
+      </p>
+      <ul>
+        <li>Cihaz ve reklam tanımlayıcıları (Android Reklam Kimliği / Advertising ID)</li>
+        <li>IP adresine dayalı yaklaşık konum bilgisi</li>
+        <li>Cihaz modeli, işletim sistemi sürümü ve uygulama içi tanılama bilgileri</li>
+        <li>Reklam gösterim ve etkileşim verileri</li>
+      </ul>
+      <p>
+        Google'ın verileri nasıl işlediği hakkında ayrıntılı bilgi için:
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Google Gizlilik Politikası</a>
+        ve
+        <a
+          href="https://policies.google.com/technologies/partner-sites"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Google'ın İş Ortağı Uygulamalarındaki Verileri Kullanma Biçimi</a>.
+      </p>
+
+      <h2>4. Gizlilik Tercihleri ve Rıza Yönetimi (UMP)</h2>
+      <p>
+        Avrupa Ekonomik Alanı (EEA), Birleşik Krallık ve İsviçre gibi rıza gerektiren bölgelerde
+        reklamlar başlatılmadan önce Google User Messaging Platform (UMP) rıza formu sunulur.
+        Ayrıca Android cihazınızda <strong>Ayarlar → Google → Reklamlar</strong> menüsünden
+        reklam kişiselleştirmeyi kısıtlayabilir veya Reklam Kimliğinizi (Advertising ID) sıfırlayıp
+        silebilirsiniz.
+      </p>
+
+      <h2>5. Çocukların Gizliliği</h2>
+      <p>
+        IonMerge 13 yaşın altındaki çocuklara yönelik değildir ve 13 yaşından küçük bireylerden
+        bilerek kişisel veri toplamaz. Çocuğunuzun bizimle veya üçüncü taraf reklam SDK'ları
+        aracılığıyla kişisel veri paylaştığını düşünüyorsanız lütfen
+        <a href="mailto:harun.uyguc@gmail.com">harun.uyguc@gmail.com</a> adresinden iletişime geçin.
+      </p>
+
+      <h2>6. Politika Güncellemeleri ve İletişim</h2>
+      <p>
+        Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncellemeler bu sayfada yürürlük
+        tarihi yenilenerek yayımlanır. Her türlü soru ve gizlilik talebiniz için geliştiriciye
+        <a href="mailto:harun.uyguc@gmail.com">harun.uyguc@gmail.com</a> adresinden ulaşabilirsiniz.
+      </p>
+    </section>
+
+    <section id="en" lang="en" class="card">
+      <h1>Privacy Policy (English)</h1>
+      <p>
+        This Privacy Policy describes how the mobile application <strong>IonMerge</strong>
+        (package ID: <code>com.harunuyguc.ionmerge</code>), developed by
+        <strong>Harun Uyguç</strong>, handles data and privacy.
+      </p>
+
+      <div class="meta-bar">
+        <div>
+          <span class="meta-label">Application</span>
+          <strong>IonMerge</strong>
+        </div>
+        <div>
+          <span class="meta-label">Developer</span>
+          <strong>Harun Uyguç</strong>
+        </div>
+        <div>
+          <span class="meta-label">Contact</span>
+          <a href="mailto:harun.uyguc@gmail.com">harun.uyguc@gmail.com</a>
+        </div>
+        <div>
+          <span class="meta-label">Effective Date</span>
+          <strong>November 24, 2026</strong>
+        </div>
+      </div>
+
+      <h2>1. Data Collected Directly by the Developer</h2>
+      <p>
+        IonMerge does not require user accounts, registration, or sign-in. The developer does not
+        operate any backend servers and does not directly collect, store, or share your name, email
+        address, phone number, or personal identity data.
+      </p>
+
+      <h2>2. Local On-Device Storage</h2>
+      <p>
+        To preserve your gameplay progress and preferences, the following information is stored
+        strictly on your own device using local storage (<code>AsyncStorage</code>):
+      </p>
+      <ul>
+        <li>High scores per game mode (Classic, Hard, Arcade)</li>
+        <li>In-progress match state and board layout</li>
+        <li>Language, haptic feedback, and ghost preview settings</li>
+      </ul>
+      <p>
+        This local data is never transmitted to developer servers and is permanently removed when
+        you clear app data or uninstall the application.
+      </p>
+
+      <h2>3. Third-Party Advertising (Google AdMob)</h2>
+      <p>
+        IonMerge uses <strong>Google AdMob</strong> (Google Mobile Ads SDK) to provide optional
+        rewarded ads (such as Second Chance revives). For ad delivery, analytics, fraud prevention,
+        and ad personalization (subject to applicable user consent), Google AdMob may process:
+      </p>
+      <ul>
+        <li>Device or other identifiers (including the Android Advertising ID)</li>
+        <li>Approximate location derived from your IP address</li>
+        <li>Device model, OS version, and app diagnostic signals</li>
+        <li>Ad impression and interaction metrics</li>
+      </ul>
+      <p>
+        For more details on how Google handles data, please review the
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >Google Privacy Policy</a>
+        and
+        <a
+          href="https://policies.google.com/technologies/partner-sites"
+          target="_blank"
+          rel="noopener noreferrer"
+        >How Google uses information from sites or apps that use our services</a>.
+      </p>
+
+      <h2>4. Consent Management &amp; Opt-Out (UMP)</h2>
+      <p>
+        In regions where consent is legally required (including the EEA, the UK, and Switzerland),
+        IonMerge presents Google's User Messaging Platform (UMP) consent dialog before initializing
+        ads. You may also reset or delete your Android Advertising ID at any time via
+        <strong>Settings → Google → Ads</strong> on your device.
+      </p>
+
+      <h2>5. Children's Privacy</h2>
+      <p>
+        IonMerge is not directed toward children under the age of 13 and does not knowingly collect
+        personal information from children under 13. If you believe a child has provided personal
+        information through third-party ad SDKs, please contact
+        <a href="mailto:harun.uyguc@gmail.com">harun.uyguc@gmail.com</a>.
+      </p>
+
+      <h2>6. Changes &amp; Contact</h2>
+      <p>
+        We may update this Privacy Policy from time to time by updating the effective date on this
+        page. If you have any questions or privacy requests, please contact the developer at
+        <a href="mailto:harun.uyguc@gmail.com">harun.uyguc@gmail.com</a>.
+      </p>
+    </section>
+
+    <footer class="footer">
+      IonMerge &copy; 2026 Harun Uyguç &middot;
+      <a href="./index.html">Ana Sayfa / Home</a> &middot;
+      <a href="mailto:harun.uyguc@gmail.com">harun.uyguc@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
